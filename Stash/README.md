@@ -6,7 +6,7 @@
 
 ## 文件列表
 
-- `config.yaml`: 主配置文件
+- `Stash_lite.yaml`: 主配置文件
 
 ## 特性
 
@@ -21,6 +21,7 @@
   - 自动测速
   - 负载均衡
   - 故障转移
+  > 注：Stash_lite.yaml 仅保持手动策略、避免策略组过于冗余
 - 隐私保护
   - 广告拦截
   - 隐私规则
@@ -28,7 +29,7 @@
 
 ## 使用方法
 
-1. 下载 `config.yaml`
+1. 下载 `Stash_lite.yaml`
 2. 修改订阅链接
    ```yaml
    proxy-providers:
@@ -36,3 +37,7 @@
        url: "替换为你的订阅链接"
    ```
 3. 导入到 Stash
+
+---
+*Last Updated: 2025-02-18 12:19:33 UTC*  
+*Maintained by: [@Sooinn](https://github.com/Sooinn)*
