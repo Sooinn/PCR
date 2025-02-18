@@ -11,7 +11,7 @@
 
 | 工具 | 配置文件 | 更新时间 |
 |------|----------|----------|
-| [Stash](./Stash/) | [config.yaml](./Stash/config.yaml) | 2025-02-18 |
+| [Stash](./Stash/) | [Stash_lite.yaml](./Stash/Stash_lite.yaml) | 2025-02-18 |
 | [Surge](./Surge/) | 待更新 | - |
 | [Loon](./Loon/) | 待更新 | - |
 
