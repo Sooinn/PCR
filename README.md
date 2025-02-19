@@ -1,7 +1,7 @@
-# Sooinn-io
+<h1 align="center">Sooinn-io</h1>
 
-![Last Commit](https://img.shields.io/github/last-commit/Sooinn/PCR)
-![License](https://img.shields.io/github/license/Sooinn/PCR)
+![Last Commit](https://img.shields.io/github/last-commit/Sooinn/Sooinn-io)
+![License](https://img.shields.io/github/license/Sooinn/Sooinn-io)
 
 > **注意**：这是属于我自用的配置，不提供技术支持。请在自己对代理工具操作逻辑、配置文件分析有一定的知识储备下使用！
 
@@ -19,13 +19,13 @@
   </tr>
   <tr>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Surge.png" alt="Surge" align="center" height="75.5" width="75.5"></td>
-    <td align="center"><a href="https://github.com/Sooinn/PCR/blob/main/Surge/Surge.conf"><strong>配置<strong></a></td>
+    <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Surge/Surge.conf"><strong>配置<strong></a></td>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Loon.png" alt="Loon" align="center" height="75.5" width="75.5"></td>
     <td align="center"><strong>配置<strong></td>
   </tr>
   <tr>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Stash.png" alt="Stash" align="center" height="75.5" width="75.5"></td>
-    <td align="center"><a href="https://github.com/Sooinn/PCR/blob/main/Stash/Stash.yaml"><strong>配置<strong></a></td>
+    <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Stash/Stash.yaml"><strong>配置<strong></a></td>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/QuantumultX.png" alt="QuantumultX" align="center" height="75.5" width="75.5"></td>
     <td align="center"><strong>配置<strong></td>
   </tr>
@@ -42,7 +42,7 @@
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/Sooinn/PCR.git
+git clone https://github.com/Sooinn/Sooinn-io.git
 ```
 
 2. 选择对应工具的配置文件
@@ -54,7 +54,7 @@ git clone https://github.com/Sooinn/PCR.git
 
 ## 💖 特别感谢
 
-特别感谢以下作者对本仓库的贡献（以下排名不分先后）：
+特别感谢以下项目和个人对本仓库的支持和贡献（以下排名不分先后）：
 
 - [SukkaW](https://github.com/SukkaW)
 - [Centralmatrix3](https://github.com/Centralmatrix3)
@@ -67,7 +67,9 @@ git clone https://github.com/Sooinn/PCR.git
 
 | 机场名称 | 官网链接 | 推荐理由 |
 |---------|---------|---------|
-| HK-BEUP | [官网地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线、价格对比享受到的服务合理 |
+| HK-BEUP | [注册地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线、价格对比享受到的服务合理 |
 
 ---
-*最后更新时间：2025-02-19*
+*Last Updated: 2025-02-19 13:00:19 UTC*  
+*Maintained by: [@Sooinn](https://github.com/Sooinn)*
+```` ▋
