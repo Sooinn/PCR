@@ -60,7 +60,7 @@ git clone https://github.com/Sooinn/PCR.git
 
 | 机场名称 | 官网链接 |
 |---------|---------|
-| 机场 A | [官网](链接) |
+| HK-BEUP | [官网](https://st.stga.cn/register?code=arUPBIhc) |
 | 机场 B | [官网](链接) |
 | 机场 C | [官网](链接) |
 
