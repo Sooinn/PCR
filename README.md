@@ -58,11 +58,9 @@ git clone https://github.com/Sooinn/PCR.git
 
 > ⚠️ 免责声明：以下为个人使用和测试过的机场节点。仅作参考，不对服务做任何保证。请根据自身需求选择。
 
-| 机场名称 | 官网链接 |
-|---------|---------|
-| HK-BEUP | [官网](https://st.stga.cn/register?code=arUPBIhc) |
-| 机场 B | [官网](链接) |
-| 机场 C | [官网](链接) |
+| 机场名称 | 官网链接 | 推荐理由 |
+|---------|---------|---------|
+| HK-BEUP | [注册地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线、价格对比享受到的服务配置合理 |
 
 ---
 *最后更新时间：2025-02-19*
