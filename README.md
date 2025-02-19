@@ -54,7 +54,7 @@ git clone https://github.com/Sooinn/PCR.git
 
 ## 💖 特别感谢
 
-特别感谢以下项目和个人对本仓库的支持和贡献（以下排名不分先后）：
+特别感谢以下作者对本仓库的贡献（以下排名不分先后）：
 
 - [SukkaW](https://github.com/SukkaW)
 - [Centralmatrix3](https://github.com/Centralmatrix3)
