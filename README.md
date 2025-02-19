@@ -35,12 +35,6 @@
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Clash.png" alt="Clash" align="center" height="75.5" width="75.5"></td>
     <td align="center"><strong>配置<strong></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center">
-    <strong><a href="https://github.com/Sooinn/PCR/blob/main/Resources/Disclaimer.md">免责声明</a></strong>
-    <td colspan="2" align="center">
-    <strong><a href="https://github.com/Sooinn/PCR/blob/main/Resources/SpecialThank.md">特别感谢</a></strong>
-  </tr>
 </table>
 </div>
 
@@ -54,13 +48,26 @@ git clone https://github.com/Sooinn/PCR.git
 2. 选择对应工具的配置文件
 3. 按照各目录下的 README 说明进行配置
 
+## 📜 免责声明
+
+本仓库中的所有配置文件和资源仅供个人学习和研究使用。请勿将其用于任何商业用途或非法用途。使用本仓库中的任何内容所导致的任何后果，均由使用者自行承担，与本仓库的维护者无关。
+
+## 💖 特别感谢
+
+特别感谢以下项目和个人对本仓库的支持和贡献（以下排名不分先后）：
+
+- [SukkaW](https://github.com/SukkaW)
+- [Centralmatrix3](https://github.com/Centralmatrix3)
+- [Rabbit-Spec](https://github.com/Rabbit-Spec)
+- [blackmatrix7](https://github.com/blackmatrix7)
+
 ## 🚀 机场推荐
 
 > ⚠️ 免责声明：以下为个人使用和测试过的机场节点。仅作参考，不对服务做任何保证。请根据自身需求选择。
 
 | 机场名称 | 官网链接 | 推荐理由 |
 |---------|---------|---------|
-| HK-BEUP | [注册地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线、价格对比享受到的服务配置合理 |
+| HK-BEUP | [官网地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线、价格对比享受到的服务合理 |
 
 ---
 *最后更新时间：2025-02-19*
