@@ -1,0 +1,411 @@
+# 文件名称: Stash配置文件
+# 作者: Sooinn
+# 更新时间: 2025-02-19 14:30
+
+# 基础配置
+mode: rule
+log-level: info
+# DNS优化配置
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - tls://dot.pub:853
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+      - '+.githubusercontent.com'
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+    - msftconnecttest.com
+    - '*.blzstatic.cn'
+# TLS配置
+tls:
+  enable: true
+  min-version: "1.2"
+  preferred-version: "1.3"
+  skip-cert-verify: false
+  cipher-suites:
+    - TLS_AES_128_GCM_SHA256
+    - TLS_AES_256_GCM_SHA384
+    - TLS_CHACHA20_POLY1305_SHA256
+# 代理提供商配置
+proxy-providers:
+  HKNtime:
+    url:  http://example.com   # 用你的订阅链接替换
+    interval: 86400
+    benchmark-url: http://cp.cloudflare.com/generate_204
+    benchmark-timeout: 5
+# 策略组配置
+proxy-groups:
+  - name: HK-BEUP
+    type: select
+    use:
+      - HKNtime
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/lightning(2).png
+  - name: Proxy
+    type: select
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/%23.png
+    proxies:
+      - HK
+      - TW
+      - JP
+      - US
+      - KR
+      - SG
+      - Other
+      - DIRECT
+  - name: Final
+    type: select
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute1/1806616.png
+    proxies:
+      - HK
+      - TW
+      - JP
+      - US
+      - KR
+      - SG
+      - Other
+      - DIRECT
+  - name: StaticRes
+    type: select
+    icon: https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/Nezuko/Nezuko5.png
+    proxies:
+      - HK
+      - JP
+      - SG
+      - DIRECT
+  # 新增的广告和隐私保护策略组
+  - name: Privacy
+    type: select
+    icon: https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/Nezuko/Nezuko9.png
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: Advertising
+    type: select
+    icon: https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/Nezuko/Nezuko26.png
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: X
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/X.png
+    proxies:
+      - HK
+      - TW
+      - JP
+      - KR
+      - SG
+      - US
+  - name: AI
+    type: select
+    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/anthropic.png
+    proxies:
+      - HK
+      - TW
+      - JP
+      - KR
+      - SG
+      - US
+  - name: Spotify
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/spotify(green).png
+    proxies:
+      - HK
+      - US
+      - DIRECT
+  - name: TikTok
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/tiktok.png
+    proxies:
+      - HK
+      - TW
+      - JP
+      - KR
+      - US
+  - name: YouTube
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/youtube.png
+    proxies:
+      - HK
+      - TW
+      - JP
+      - KR
+      - SG
+      - US
+  - name: Telegram
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Telegram.png
+    proxies:
+      - HK
+      - TW
+      - JP
+      - KR
+      - SG
+      - US
+      - Final
+  - name: Apple
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
+    proxies:
+      - HK
+      - JP
+      - US
+      - DIRECT
+  - name: Google
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+    proxies:
+      - HK
+      - US
+      - DIRECT
+  - name: Games
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Game.png
+    proxies:
+      - Proxy
+      - HK
+      - JP
+      - DIRECT
+  - name: BiliBili
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/Bilibili.png
+    proxies:
+      - DIRECT
+      - HK
+      - TW
+  - name: DouYin
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/tiktok((2).png
+    type: select
+    proxies:
+      - HK
+      - TW
+      - JP
+      - KR
+      - US
+      - DIRECT
+  - name: WeChat
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/wechat.png
+    type: select
+    proxies:
+      - HK
+      - DIRECT
+  - name: HK
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/skylines.png
+    proxies: null
+    filter: (?i)(🇭🇰|HK|Hong Kong|香港).*$
+    use:
+      - HKNtime
+  - name: TW
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/taipei101.png
+    proxies: null
+    filter: (?i)(🇹🇼|TW|Taiwan|台灣|台湾).*$
+    use:
+      - HKNtime
+  - name: JP
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/torii.png
+    proxies: null
+    filter: (?i)(🇯🇵|JP|Japan|日本).*$
+    use:
+      - HKNtime
+  - name: US
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/StatueOfLiberty.png
+    proxies: null
+    filter: (?i)(🇺🇸|US|USA|United States|America|美国|合众国).*$
+    use:
+      - HKNtime
+  - name: KR
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/JingFuGong.png
+    proxies: null
+    filter: (?i)(🇰🇷|KR|Korea|South Korea|韩国).*$
+    use:
+      - HKNtime
+  - name: SG
+    type: select
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Merlion.png
+    proxies: null
+    filter: (?i)(🇸🇬|SG|Singapore|新加坡|狮城).*$
+    use:
+      - HKNtime
+  - filter: ^(?!.*(?:香港|台湾|日本|美国|韩国|新加坡|Hong\s?Kong|Taiwan|Japan|United\s*States|USA|US|South\s*Korea|Korea|Singapore|HK|TW|JP|KR|SG)).*$
+    lazy: true
+    name: Other
+    type: select
+    use:
+      - HKNtime
+    icon: https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/Nezuko/Nezuko7.png
+    
+# 规则提供商
+rule-providers:
+  # 隐私保护规则
+  Privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy.yaml
+    path: ./ruleset/Privacy.yaml
+    interval: 86400
+  # 广告拦截规则
+  Advertising:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml
+    path: ./ruleset/Advertising.yaml
+    interval: 86400
+  # 下载和CDN优化规则
+  download:
+    type: http
+    behavior: classical
+    url: https://ruleset.skk.moe/List/non_ip/download.conf
+    interval: 86400
+    format: text
+  StaticCdn:
+    type: http
+    behavior: classical
+    url: https://ruleset.skk.moe/List/non_ip/cdn.conf
+    interval: 86400
+    format: text
+  AI:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/AI.list
+  YouTube:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/YouTube.list
+  TikTok:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/TikTok.list
+  BiliBili:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/bilibili.list
+  Spotify:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Spotify.list
+  WeChat:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/WeChat.list
+  Telegram:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Telegram.list
+  GitHub:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Github.list
+  Twitter:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Twitter.list
+  AppleProxyService:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/AppleProxyService.list
+  Apple:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Apple.list
+  Google:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Google.list
+  Games:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Game.list
+  CN_Mainland:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/ChinaDomain.list
+  ProxyGFW:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/ProxyGFW.list
+# 规则
+rules:
+  # 隐私和广告
+  - RULE-SET,Privacy,REJECT
+  - RULE-SET,Advertising,REJECT,no-resolve
+  # 静态CDN优化
+  - RULE-SET,download,StaticRes
+  - RULE-SET,StaticCdn,StaticRes
+  # 应用分流
+  - RULE-SET,Twitter,X
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,AI,AI
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,GitHub,Proxy
+  # 系统代理
+  - PROCESS-NAME,v2ray,DIRECT
+  - PROCESS-NAME,xray,DIRECT
+  - PROCESS-NAME,clash,DIRECT
+  - PROCESS-NAME,naive,DIRECT
+  - PROCESS-NAME,trojan,DIRECT
+  - PROCESS-NAME,trojan-go,DIRECT
+  - PROCESS-NAME,ss-local,DIRECT
+  - PROCESS-NAME,privoxy,DIRECT
+  - RULE-SET,AppleProxyService,US
+  - RULE-SET,Apple,Apple
+  - RULE-SET,Google,Google
+  - RULE-SET,Games,Games
+  - RULE-SET,ProxyGFW,Proxy
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,WeChat,WeChat
+  - RULE-SET,CN_Mainland,DIRECT,no-resolve
+  # 局域网和保留地址
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
+  # GeoIP规则
+  - GEOIP,LAN,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT,no-resolve
+  - MATCH,Final
