@@ -1,16 +1,23 @@
-# Surge 配置说明
+# Surge 配置
 
-## 配置文件列表
+## 配置说明
 
-在此文件夹下你可以放置以下文件：
-- 配置文件 (*.conf)
-- 模块文件
-- 规则集合
+此目录包含了优化后的 Surge 配置文件，适用于 iOS 和 macOS 平台。
+
+## 文件列表
+
+- `Surge.conf`: 主配置文件
 
 ## 使用方法
 
-1. 选择需要使用的配置文件
-2. 在Surge客户端中导入对应的配置文件
-3. 根据需要修改配置参数
+1. 下载 `Surge.conf`
+2. 修改订阅链接
+   ```conf
+   [Proxy Group]
+   # 在这里替换为你的订阅链接
+   ```
+3. 导入到 Surge
 
-注：请将你的Surge配置文件直接放在此文件夹下
+---
+*Last Updated: 2025-02-19 12:35:42 UTC*  
+*Maintained by: [@Sooinn](https://github.com/Sooinn)*
