@@ -52,7 +52,7 @@ PCR/
 ## ⚡️ 快速开始
 
 ### Stash
-1. 下载 [config.yaml](./Stash/config.yaml)
+1. 下载 [Stash_lite.yaml](./Stash/Stash_lite.yaml)
 2. 修改订阅链接
 3. 导入到 Stash
 
