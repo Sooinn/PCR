@@ -9,25 +9,40 @@
 
 ## 📚 内容索引
 
-| 工具 | 配置文件 | 更新时间 |
-|------|----------|----------|
-| [Stash](./Stash/) | [Stash_lite.yaml](./Stash/Stash_lite.yaml) | 2025-02-18 |
-| [Surge](./Surge/) | 待更新 | - |
-| [Loon](./Loon/) | 待更新 | - |
-
-## 🌟 特性
-
-### Stash 配置
-- 优化的 DNS 配置与 TLS 1.3 支持
-- 完整的分流规则与隐私保护
-- 自动测速、负载均衡、故障转移
-- 适配主流应用（YouTube、Telegram等）
-
-### Surge 配置
-- 待更新
-
-### Loon 配置
-- 待更新
+<div align="center">
+<table>
+  <tr>
+    <th align="center">工具</th>
+    <th align="center">配置</th>
+    <th align="center">工具</th>
+    <th align="center">配置</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Surge.png" alt="Surge" align="center" height="75.5" width="75.5"></td>
+    <td align="center"><a href="https://github.com/Sooinn/PCR/blob/main/Surge/Surge.conf"><strong>配置<strong></a></td>
+    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Loon.png" alt="Loon" align="center" height="75.5" width="75.5"></td>
+    <td align="center"><strong>配置<strong></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Stash.png" alt="Stash" align="center" height="75.5" width="75.5"></td>
+    <td align="center"><a href="https://github.com/Sooinn/PCR/blob/main/Stash/Stash.yaml"><strong>配置<strong></a></td>
+    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/QuantumultX.png" alt="QuantumultX" align="center" height="75.5" width="75.5"></td>
+    <td align="center"><strong>配置<strong></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Shadowrocket.png" alt="Shadowrocket" align="center" height="75.5" width="75.5"></td>
+    <td align="center"><strong>配置<strong></td>
+    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Clash.png" alt="Clash" align="center" height="75.5" width="75.5"></td>
+    <td align="center"><strong>配置<strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+    <strong><a href="https://github.com/Sooinn/PCR/blob/main/Resources/Disclaimer.md">免责声明</a></strong>
+    <td colspan="2" align="center">
+    <strong><a href="https://github.com/Sooinn/PCR/blob/main/Resources/SpecialThank.md">特别感谢</a></strong>
+  </tr>
+</table>
+</div>
 
 ## 🔧 使用指南
 
@@ -38,29 +53,6 @@ git clone https://github.com/Sooinn/PCR.git
 
 2. 选择对应工具的配置文件
 3. 按照各目录下的 README 说明进行配置
-
-## 📖 目录结构
-
-```
-PCR/
-├── Stash/          # Stash 配置文件和说明
-├── Surge/          # Surge 配置文件和说明
-├── Loon/           # Loon 配置文件和说明
-└── Resources/      # 共享资源文件
-```
-
-## ⚡️ 快速开始
-
-### Stash
-1. 下载 [Stash_lite.yaml](./Stash/Stash_lite.yaml)
-2. 修改订阅链接
-3. 导入到 Stash
-
-### Surge
-- 待更新
-
-### Loon
-- 待更新
 
 ## 🚀 机场推荐
 
@@ -73,4 +65,4 @@ PCR/
 | 机场 C | [官网](链接) |
 
 ---
-*最后更新时间：2025-02-18*
+*最后更新时间：2025-02-19*
