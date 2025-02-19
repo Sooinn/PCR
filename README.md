@@ -1,4 +1,4 @@
-# Personal Configuration Repository (PCR)
+# Sooinn-io
 
 ![Last Commit](https://img.shields.io/github/last-commit/Sooinn/PCR)
 ![License](https://img.shields.io/github/license/Sooinn/PCR)
