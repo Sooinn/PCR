@@ -21,19 +21,12 @@
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Surge.png" alt="Surge" align="center" height="75.5" width="75.5"></td>
     <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Surge/Surge.conf"><strong>配置<strong></a></td>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Loon.png" alt="Loon" align="center" height="75.5" width="75.5"></td>
-    <td align="center"><strong>配置<strong></td>
+    <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Loon/Loon.conf"><strong>配置<strong></a></td>
   </tr>
   <tr>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Stash.png" alt="Stash" align="center" height="75.5" width="75.5"></td>
     <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Stash/Stash.yaml"><strong>配置<strong></a></td>
-    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/QuantumultX.png" alt="QuantumultX" align="center" height="75.5" width="75.5"></td>
-    <td align="center"><strong>配置<strong></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Shadowrocket.png" alt="Shadowrocket" align="center" height="75.5" width="75.5"></td>
-    <td align="center"><strong>配置<strong></td>
-    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Clash.png" alt="Clash" align="center" height="75.5" width="75.5"></td>
-    <td align="center"><strong>配置<strong></td>
+    <td align="center" colspan="2"><img src="https://camo.githubusercontent.com/f11fb9bd84d911ae3cc43f5d886e9f0a9ae1a6ddc8d3810c240a88e51fcb2233/68747470733a2f2f636f756e742e6765746c6f6c692e636f6d2f6765742f4043656e7472616c6d617472697833" alt="Coming Soon" align="center" height="75.5" width="75.5"></td>
   </tr>
 </table>
 </div>
@@ -63,13 +56,13 @@ git clone https://github.com/Sooinn/Sooinn-io.git
 
 ## 🚀 机场推荐
 
-> ⚠️ 免责声明：以下为个人常用的ISP服务提供商。仅作参考，不对服务做任何保证。请根据自身需求选择。
+> ⚠️ 免责声明：以下为个人使用和测试过的机场节点。仅作参考，不对服务做任何保证。请根据自身需求选择。
 
 | 机场名称 | 官网链接 | 推荐理由 |
 |---------|---------|---------|
 | HK-BEUP | [注册地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线、价格对比享受到的服务合理 |
 
 ---
-*Last Updated: 2025-02-19 13:00:19 UTC*  
+*Last Updated: 2025-02-20*  
 *Maintained by: [@Sooinn](https://github.com/Sooinn)*
 ```` ▋
