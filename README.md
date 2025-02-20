@@ -7,7 +7,7 @@
 
 ## 📚 内容索引
 
-> **注**：以下只维护更新自己任何使用体验较好工具内容。
+> **注**：以下只维护更新自己任何使用体验最好的代理工具（自我喜爱梯度顺位Surge > Loon > Stash > Egern > QuantumultX > Shadowrocket > Other）
 
 <div align="center">
 <table>
@@ -26,7 +26,7 @@
   <tr>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Stash.png" alt="Stash" align="center" height="75.5" width="75.5"></td>
     <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Stash/Stash.yaml"><strong>配置<strong></a></td>
-    <td align="center" colspan="2"><img src="https://camo.githubusercontent.com/f11fb9bd84d911ae3cc43f5d886e9f0a9ae1a6ddc8d3810c240a88e51fcb2233/68747470733a2f2f636f756e742e6765746c6f6c692e636f6d2f6765742f4043656e7472616c6d617472697833" alt="Coming Soon" align="center" height="75.5" width="75.5"></td>
+    <td align="center" colspan="2"><img src="https://count.getloli.com/get/@Sooinn-io" align="center" height="75.5" width="135" data-canonical-src="https://count.getloli.com/get/@Sooinn-io" style="max-width: 100%;"></td>
   </tr>
 </table>
 </div>
