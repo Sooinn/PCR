@@ -9,7 +9,7 @@
 
 ## 📚 内容索引
 
-> **注**：以下只维护更新自己任何使用体验最好的代理工具（自我喜爱梯度顺位Surge（非常推荐） > Loon（推荐） > Stash（推荐） > Egern（一般） > QuantumultX（不推荐） > Shadowrocket（情怀） > Other （各有所爱））
+> **注**：以下只维护更新自己使用体验较好的工具内容（自我喜爱梯度顺位Surge（非常推荐） > Loon（推荐） > Stash（推荐） > Egern（一般） > QuantumultX（不推荐） > Shadowrocket（情怀） > Other （各有所爱））
 
 <div align="center">
 <table>
