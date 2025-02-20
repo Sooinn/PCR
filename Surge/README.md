@@ -12,12 +12,13 @@
 
 1. 下载 `Surge.conf`
 2. 修改订阅链接
-   ```conf
-   [Proxy Group]
-   # 在这里替换为你的订阅链接
-   ```
+    ```conf
+    [Proxy Group]
+    # 在这里替换为你的订阅链接
+    ```
 3. 导入到 Surge
 
 ---
-*Last Updated: 2025-02-19 12:35:42 UTC*  
+
+*Last Updated: 2025-02-20*  
 *Maintained by: [@Sooinn](https://github.com/Sooinn)*
