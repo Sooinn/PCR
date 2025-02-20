@@ -13,4 +13,9 @@
 2. 在Loon客户端中导入对应的配置文件
 3. 根据需要修改配置参数
 
-注：请将你的Loon配置文件直接放在此文件夹下
+---
+
+*Last Updated: 2025-02-20*  
+*Maintained by: [@Sooinn](https://github.com/Sooinn)*
+
+```` ▋
