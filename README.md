@@ -56,11 +56,11 @@ git clone https://github.com/Sooinn/Sooinn-io.git
 
 ## 🚀 机场推荐
 
-> ⚠️ 免责声明：以下为个人使用和测试过的机场节点。仅作参考，不对服务做任何保证。请根据自身需求选择。
+> ⚠️ 免责声明：以下为个人常用的ISP服务提供商。仅作参考，不对服务做任何保证。请根据自身需求选择。
 
 | 机场名称 | 官网链接 | 推荐理由 |
 |---------|---------|---------|
-| HK-BEUP | [注册地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线、价格对比享受到的服务合理 |
+| HK-BEUP | [注册地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线IP纯净、社区氛围友好、处理问题及时全面、价格对比享受到的服务非常合理 |
 
 ---
 *Last Updated: 2025-02-20*  
