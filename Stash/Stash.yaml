@@ -52,6 +52,7 @@ tls:
 # 代理提供商配置
 proxy-providers:
   HKNtime:
+  # HKNitme用你的机场名替换
     url:  http://example.com   # 用你的订阅链接替换
     interval: 86400
     benchmark-url: http://cp.cloudflare.com/generate_204
