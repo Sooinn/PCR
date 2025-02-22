@@ -36,14 +36,8 @@
 </div>
 
 ## 🔧 使用指南
-
-1. 克隆仓库
-```bash
-git clone https://github.com/Sooinn/Sooinn-io.git
-```
-
-2. 选择对应工具的配置文件
-3. 按照各目录下的 README 说明进行配置
+1. 选择对应工具的配置文件
+2. 按照各目录下的 README 说明进行配置
 
 ## 📜 免责声明
 
