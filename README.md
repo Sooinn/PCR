@@ -47,16 +47,32 @@ git clone https://github.com/Sooinn/Sooinn-io.git
 
 ## 📜 免责声明
 
-本仓库中的所有配置文件和资源仅供个人学习和研究使用。请勿将其用于任何商业用途或非法用途。使用本仓库中的任何内容所导致的任何后果，均由使用者自行承担。
+本仓库中的所有配置文件和资源仅供个人学习和研究使用。请勿将其用于任何商业用途或非法用途。使用本仓库中的任何内容所导致的任何后果，均与仓库维护者无关，使用者需自行承担相关风险。
 
 ## 💖 特别感谢
 
 特别感谢以下项目和个人对本仓库的支持和贡献（以下排名不分先后）：
 
-- [SukkaW](https://github.com/SukkaW)
-- [Centralmatrix3](https://github.com/Centralmatrix3)
-- [Rabbit-Spec](https://github.com/Rabbit-Spec)
-- [blackmatrix7](https://github.com/blackmatrix7)
+**在此感谢各位原作者的贡献**
+
+| 项目地址                                           | 作者                   |
+|----------------------------------------------------|------------------------|
+| [LaolunsiG/PCR](https://github.com/LaolunsiG/PCR)  | [LaolunsiG](https://github.com/LaolunsiG) |
+| [Repcz/Tool](https://github.com/Repcz/Tool)        | [Repcz](https://github.com/Repcz)         |
+| [Rabbit-Spec/Surge](https://github.com/Rabbit-Spec/Surge) | [Rabbit-Spec](https://github.com/Rabbit-Spec) |
+| [SukkaW/Surge](https://github.com/SukkaW/Surge)    | [SukkaW](https://github.com/SukkaW)       |
+| [HotKids/Rules](https://github.com/HotKids/Rules)  | [HotKids](https://github.com/HotKids)     |
+| [QingRex/LoonKissSurge](https://github.com/QingRex/LoonKissSurge) | [QingRex](https://github.com/QingRex)     |
+| [luestr/ProxyResource](https://github.com/luestr/ProxyResource) | [luestr](https://github.com/luestr)       |
+| [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) | [blackmatrix7](https://github.com/blackmatrix7) |
+| [TributePaulWalker/Profiles](https://github.com/TributePaulWalker/Profiles) | [TributePaulWalker](https://github.com/TributePaulWalker) |
+
+**官方文档：**
+
+- [Surge 官方文档](https://manual.nssurge.com/book/understanding-surge/cn/)
+- [Loon 官方文档](https://nsloon.app/docs/intro/)
+- [Stash 官方文档](https://stash.wiki)
+- [Egern 官方文档](https://egernapp.com/zh-CN/docs/intro)
 
 ## 🚀 机场推荐
 
@@ -68,15 +84,7 @@ git clone https://github.com/Sooinn/Sooinn-io.git
 
 ## 📝 更新日志
 
-**2025-02-22**
-- 添加 Egern 配置文件及说明文档
-- 更新工具表格，新增 Egern 工具
-- 优化文档结构
-
-**2025-02-20**
-- 添加基础说明文档
-- 创建资源文件夹
-- 初始化仓库配置
+ 不定时更新（示各个工具的新功能更新为参考）
 
 ---
 
