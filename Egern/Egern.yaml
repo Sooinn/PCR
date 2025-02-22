@@ -1,0 +1,274 @@
+ipv6: false
+socks_port: 4090
+allow_external_connections: false
+vif_only: true
+hide_vpn_icon: false
+geoip_db_url: https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
+proxy_latency_test_url: http://cp.cloudflare.com/generate_204
+direct_latency_test_url: http://taobao.com/
+compat_route: false
+dns:
+  bootstrap:
+  - 8.8.8.8
+  - 233.5.5.5
+  - 119.29.29.29
+  upstreams:
+    SecureDNS:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  forward:
+  - wildcard:
+      match: '*'
+      value: SecureDNS
+  public_ip_lookup_url: https://ifconfig.me/ip
+policy_groups:
+- external:
+    name: 你的机场名
+    type: select
+    urls:
+    - 你的机场订阅链接 
+    filter: ^
+    interval: 1800
+    tolerance: 50
+    timeout: 5
+    update_interval: 86400
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/Twoandz9/Miaosu.png
+    hidden: false
+- select:
+    name: Proxy
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    - 你的机场名
+    - DIRECT
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/%23.png
+    hidden: false
+- select:
+    name: Final
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    - Other
+    - DIRECT
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute1/1806616.png
+    hidden: false
+- select:
+    name: X
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/1icon.png
+- select:
+    name: YouTube
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute1/1814233.png
+- select:
+    name: Telegram
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    - Other
+    - Final
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/email.png
+- select:
+    name: Instagram
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/in.png
+- select:
+    name: Spotify
+    policies:
+    - HK
+    - DIRECT
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/spotify.png
+- select:
+    name: WhatsApp
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/whatsapp.png
+- select:
+    name: TikTok
+    policies:
+    - TW
+    - JP
+    - US
+    - Other
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/tiktok.png
+- select:
+    name: AI Cluster
+    policies:
+    - JP
+    - US
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/claude.png
+- select:
+    name: Apple
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    - DIRECT
+    icon: https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/cartoon/Cute/apple.png
+    hidden: false
+- select:
+    name: Overseas
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    - 你的机场名
+    - DIRECT
+    icon: https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/Nezuko/Nezuko5.png
+    hidden: false
+- select:
+    name: ChinaApp
+    policies:
+    - HK
+    - TW
+    - JP
+    - US
+    - 你的机场名
+    - DIRECT
+    icon: https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/Nezuko/Nezuko13.png
+    hidden: false
+- select:
+    name: HK
+    policies:
+    - 你的机场名
+    flatten: true
+    filter: 香港|港|HK|🇭🇰|(?i)Hong
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/skylines.png
+    hidden: false
+- select:
+    name: TW
+    policies:
+    - 你的机场名
+    flatten: true
+    filter: 台湾|台|TW|🇹🇼|(?i)Taiwan
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/taipei101.png
+    hidden: false
+- select:
+    name: JP
+    policies:
+    - 你的机场名
+    flatten: true
+    filter: 日本|日|JP|🇯🇵|(?i)Japan
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/torii.png
+    hidden: false
+- select:
+    name: US
+    policies:
+    - 你的机场名
+    flatten: true
+    filter: 美国|美|US|🇺🇸|(?i)States
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/StatueOfLiberty.png
+    hidden: false
+- select:
+    name: Other
+    policies:
+    - 你的机场名
+    flatten: true
+    filter: ^(?!.*(?:HK|Hong Kong|香港|🇭🇰|JP|Japan|日本|🇯🇵|TW|Taiwan|台湾|🇹🇼|US|United States|美国|🇺🇸)).*$
+    icon: https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/Nezuko/Nezuko25.png
+rules:
+- rule_set:
+    match: https://github.com/Repcz/Tool/blob/X/Egern/Rules/CDN.yaml
+    policy: HK
+- rule_set:
+    match: https://github.com/Repcz/Tool/blob/X/Egern/Rules/Ads_SukkaW.yaml
+    policy: REJECT
+    update_interval: 86400
+    disabled: false
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/Twitter.yaml
+    policy: X
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/YouTube.yaml
+    policy: YouTube
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/Telegram.yaml
+    policy: Telegram
+- rule_set:
+    match: https://github.com/Repcz/Tool/blob/X/Egern/Rules/Instagram.yaml
+    policy: Instagram
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/TikTok.yaml
+    policy: TikTok
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/Spotify.yaml
+    policy: Spotify
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/WhatsApp.yaml
+    policy: WhatsApp
+- rule_set:
+    match: https://github.com/Repcz/Tool/blob/X/Egern/Rules/AI.yaml
+    policy: AI Cluster
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/GitHub.yaml
+    policy: Proxy
+- rule_set:
+    match: https://github.com/Repcz/Tool/blob/X/Egern/Rules/Google.yaml
+    policy: Proxy
+- rule_set:
+    match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Apple.yaml
+    policy: Apple
+    update_interval: 86400
+    disabled: false
+- rule_set:
+    match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Global.yaml
+    policy: Proxy
+    update_interval: 86400
+    disabled: true
+- rule_set:
+    match: https://github.com/Centralmatrix3/Matrix-io/blob/master/Egern/Ruleset/DouYin.yaml
+    policy: ChinaApp
+- rule_set:
+    match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Unbreak.yaml
+    policy: DIRECT
+    update_interval: 86400
+    disabled: false
+- rule_set:
+    match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/LAN.yaml
+    policy: DIRECT
+    update_interval: 86400
+    disabled: false
+- rule_set:
+    match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/GEOIPCN.yaml
+    policy: DIRECT
+    update_interval: 86400
+    disabled: false
+- default:
+    policy: Final
+mitm:
+  enabled: true
+  ca_p12: egern.p12
+  ca_passphrase: egern
+modules:
+- name: GooGle 重定向
+  url: https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Google%E9%87%8D%E5%AE%9A%E5%90%91.sgmodule
+  enabled: true
+- name: Spotify 增强
+  url: https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/%F0%9F%8D%9F%20DualSubsSpotify.official.sgmodule
+  enabled: true
+- name: Youtube 增强
+  url: https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/Youtube%20(Music)%20Enhance.official.sgmodule
+  enabled: true
