@@ -36,8 +36,14 @@
 </div>
 
 ## 🔧 使用指南
-1. 选择对应工具的配置文件
-2. 按照各目录下的 README 说明进行配置
+
+1. 克隆仓库
+```bash
+git clone https://github.com/Sooinn/Sooinn-io.git
+```
+
+2. 选择对应工具的配置文件
+3. 按照各目录下的 README 说明进行配置
 
 ## 📜 免责声明
 
@@ -51,6 +57,7 @@
 
 | 项目地址                                           | 作者                   |
 |----------------------------------------------------|------------------------|
+| [Centralmatrix3/Matrix-io](https://github.com/Centralmatrix3/Matrix-io) | [Centralmatrix3](https://github.com/Centralmatrix3) |
 | [LaolunsiG/PCR](https://github.com/LaolunsiG/PCR)  | [LaolunsiG](https://github.com/LaolunsiG) |
 | [Repcz/Tool](https://github.com/Repcz/Tool)        | [Repcz](https://github.com/Repcz)         |
 | [Rabbit-Spec/Surge](https://github.com/Rabbit-Spec/Surge) | [Rabbit-Spec](https://github.com/Rabbit-Spec) |
@@ -78,7 +85,7 @@
 
 ## 📝 更新日志
 
- 不定时更新（示各个工具的新功能更新为参考）
+<!-- 不定时更新（示各个工具的新功能更新为参考） -->
 
 ---
 
