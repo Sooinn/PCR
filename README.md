@@ -26,7 +26,11 @@
   <tr>
     <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Stash.png" alt="Stash" align="center" height="75.5" width="75.5"></td>
     <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Stash/Stash.yaml"><strong>配置<strong></a></td>
-    <td align="center" colspan="2"><img src="https://count.getloli.com/get/@Sooinn-io" align="center" height="75.5" width="135" data-canonical-src="https://count.getloli.com/get/@Sooinn-io" style="max-width: 100%;"></td>
+    <td><img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Special/Egern.png" alt="Egern" align="center" height="75.5" width="75.5"></td>
+    <td align="center"><a href="https://github.com/Sooinn/Sooinn-io/blob/main/Egern/Egern.yaml"><strong>配置<strong></a></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="4"><img src="https://count.getloli.com/get/@Sooinn-io" align="center" height="75.5" width="135" data-canonical-src="https://count.getloli.com/get/@Sooinn-io" style="max-width: 100%;"></td>
   </tr>
 </table>
 </div>
@@ -43,7 +47,7 @@ git clone https://github.com/Sooinn/Sooinn-io.git
 
 ## 📜 免责声明
 
-本仓库中的所有配置文件和资源仅供个人学习和研究使用。请勿将其用于任何商业用途或非法用途。使用本仓库中的任何内容所导致的任何后果，均由使用者自行承担，与本仓库的维护者无关。如果您使用了本仓库的任意内容即代表您同意免责声明。
+本仓库中的所有配置文件和资源仅供个人学习和研究使用。请勿将其用于任何商业用途或非法用途。使用本仓库中的任何内容所导致的任何后果，均由使用者自行承担。
 
 ## 💖 特别感谢
 
@@ -62,7 +66,19 @@ git clone https://github.com/Sooinn/Sooinn-io.git
 |---------|---------|---------|
 | HK-BEUP | [注册地址](https://st.stga.cn/register?code=arUPBIhc) | 全专线IP纯净、社区氛围友好、处理问题及时全面、价格对比享受到的服务非常合理 |
 
+## 📝 更新日志
+
+**2025-02-22**
+- 添加 Egern 配置文件及说明文档
+- 更新工具表格，新增 Egern 工具
+- 优化文档结构
+
+**2025-02-20**
+- 添加基础说明文档
+- 创建资源文件夹
+- 初始化仓库配置
+
 ---
-*Last Updated: 2025-02-20*  
+
+*Last Updated: 2025-02-22 UTC*  
 *Maintained by: [@Sooinn](https://github.com/Sooinn)*
-```` ▋
